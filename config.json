@@ -1,0 +1,17 @@
+{
+    "folders_to_backup": [
+        {
+            "path": "C:\\Users\\valer\\Documents\\AghanimoffVault",
+            "exclude": [
+                "C:\\Users\\valer\\Documents\\AghanimoffVault\\_photo"
+            ],
+            "backup_path": false
+        }
+    ],
+    "backup_time": "01:00",
+    "log_dir": ".logs",
+    "log_max_bytes": 1048576,
+    "log_backup_count": 5,
+    "max_backup_size_mb": 500,
+    "enable_notifications": true
+}

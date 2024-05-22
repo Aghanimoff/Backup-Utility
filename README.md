@@ -16,7 +16,7 @@ I use this to save cloud notes and a directory for work.
     ```bash
     git clone <repository_url>
     ```
-    Or download the `daily_backup.py` script directly.
+    Or download the `backup.py` script directly.
 
 2. **Edit the configuration file**:
     - Open `config.json` in a text editor.
@@ -53,11 +53,11 @@ I use this to save cloud notes and a directory for work.
       ```
     - Execute the script:
       ```bash
-      python daily_backup.py
+      python backup.py
       ```
 
 2. **Set up the script to run at system startup**:
-    - Create a shortcut for `daily_backup.py`.
+    - Create a shortcut for `backup.py`.
     - Move the shortcut to the startup folder. To open the startup folder, press `Win + R`, type `shell:startup`, and press `Enter`.
     - Place the shortcut in the opened folder.
 
